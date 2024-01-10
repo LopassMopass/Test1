@@ -1,0 +1,17 @@
+C:\Users\OMEN\source\repos\DU\DU\bin\Debug\net6.0\DU.exe
+C:\Users\OMEN\source\repos\DU\DU\bin\Debug\net6.0\DU.deps.json
+C:\Users\OMEN\source\repos\DU\DU\bin\Debug\net6.0\DU.runtimeconfig.json
+C:\Users\OMEN\source\repos\DU\DU\bin\Debug\net6.0\DU.dll
+C:\Users\OMEN\source\repos\DU\DU\bin\Debug\net6.0\DU.pdb
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\DU.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\DU.AssemblyInfoInputs.cache
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\DU.AssemblyInfo.cs
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\DU.csproj.CoreCompileInputs.cache
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\DU.dll
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\refint\DU.dll
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\DU.pdb
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\DU.genruntimeconfig.cache
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\ref\DU.dll
+C:\Users\OMEN\source\repos\DU\DU\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\DU.csproj.AssemblyReference.cache
+C:\Users\OMEN\source\repos\DU\DU\obj\Debug\net6.0\DU.csproj.CopyComplete

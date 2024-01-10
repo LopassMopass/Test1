@@ -1,0 +1,111 @@
+{
+  "NPCSpeech": "Hello there! How can I help you?",
+  "PlayerAnswers": [
+    "Tell me about quests",
+    "Ask about items"
+  ],
+  "NextNodes": {
+    "Tell me about quests": {
+      "NPCSpeech": "Great! What would you like to know?",
+      "PlayerAnswers": [
+        "Tell me about available quests",
+        "Nevermind"
+      ],
+      "NextNodes": {
+        "Tell me about available quests": {
+          "NPCSpeech": "I'm sorry, I don't have any quests to give :(",
+          "PlayerAnswers": [],
+          "NextNodes": {},
+          "SerializableNextNodes": []
+        },
+        "Nevermind": {
+          "NPCSpeech": "Goodbye then!",
+          "PlayerAnswers": [],
+          "NextNodes": {},
+          "SerializableNextNodes": []
+        }
+      },
+      "SerializableNextNodes": [
+        {
+          "Key": "Tell me about available quests",
+          "Value": {
+            "NPCSpeech": "I'm sorry, I don't have any quests to give :(",
+            "PlayerAnswers": [],
+            "NextNodes": {},
+            "SerializableNextNodes": []
+          }
+        },
+        {
+          "Key": "Nevermind",
+          "Value": {
+            "NPCSpeech": "Goodbye then!",
+            "PlayerAnswers": [],
+            "NextNodes": {},
+            "SerializableNextNodes": []
+          }
+        }
+      ]
+    },
+    "Ask about items": {
+      "NPCSpeech": "I'm sorry, but you do not have access to shop yet :)",
+      "PlayerAnswers": [],
+      "NextNodes": {},
+      "SerializableNextNodes": []
+    }
+  },
+  "SerializableNextNodes": [
+    {
+      "Key": "Tell me about quests",
+      "Value": {
+        "NPCSpeech": "Great! What would you like to know?",
+        "PlayerAnswers": [
+          "Tell me about available quests",
+          "Nevermind"
+        ],
+        "NextNodes": {
+          "Tell me about available quests": {
+            "NPCSpeech": "I'm sorry, I don't have any quests to give :(",
+            "PlayerAnswers": [],
+            "NextNodes": {},
+            "SerializableNextNodes": []
+          },
+          "Nevermind": {
+            "NPCSpeech": "Goodbye then!",
+            "PlayerAnswers": [],
+            "NextNodes": {},
+            "SerializableNextNodes": []
+          }
+        },
+        "SerializableNextNodes": [
+          {
+            "Key": "Tell me about available quests",
+            "Value": {
+              "NPCSpeech": "I'm sorry, I don't have any quests to give :(",
+              "PlayerAnswers": [],
+              "NextNodes": {},
+              "SerializableNextNodes": []
+            }
+          },
+          {
+            "Key": "Nevermind",
+            "Value": {
+              "NPCSpeech": "Goodbye then!",
+              "PlayerAnswers": [],
+              "NextNodes": {},
+              "SerializableNextNodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Key": "Ask about items",
+      "Value": {
+        "NPCSpeech": "I'm sorry, but you do not have access to shop yet :)",
+        "PlayerAnswers": [],
+        "NextNodes": {},
+        "SerializableNextNodes": []
+      }
+    }
+  ]
+}

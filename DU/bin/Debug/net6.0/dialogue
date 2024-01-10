@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueNode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NPCSpeech>Hello there! How can I help you?</NPCSpeech>
+  <PlayerAnswers>
+    <string>Tell me about quests</string>
+    <string>Ask about items</string>
+  </PlayerAnswers>
+  <NextNodes>
+    <NextNode Key="Tell me about quests">
+      <Value>
+        <NPCSpeech>Great! What would you like to know?</NPCSpeech>
+        <PlayerAnswers>
+          <string>Tell me about available quests</string>
+          <string>Nevermind</string>
+        </PlayerAnswers>
+        <NextNodes>
+          <NextNode Key="Tell me about available quests">
+            <Value>
+              <NPCSpeech>I'm sorry, I don't have that information.</NPCSpeech>
+              <PlayerAnswers />
+              <NextNodes />
+            </Value>
+          </NextNode>
+          <NextNode Key="Nevermind" />
+        </NextNodes>
+      </Value>
+    </NextNode>
+    <NextNode Key="Ask about items">
+      <Value>
+        <NPCSpeech>I'm sorry, I don't have that information.</NPCSpeech>
+        <PlayerAnswers />
+        <NextNodes />
+      </Value>
+    </NextNode>
+  </NextNodes>
+</DialogueNode>
